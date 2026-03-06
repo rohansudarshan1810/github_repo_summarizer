@@ -3,6 +3,7 @@ import os
 from agents import create_agents
 from tasks import create_tasks
 from crewai import Crew
+from langfuse.openai import OpenAI
 
 # Load .env
 load_dotenv(override=True)

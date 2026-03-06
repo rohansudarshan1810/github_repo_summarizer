@@ -1,11 +1,11 @@
 from crewai import Agent
-from crewai_tools import GithubSearchTool
+from crewai_tools.tools.github_search_tool.github_search_tool import GithubSearchTool
 from langchain_openai import ChatOpenAI
 
 def create_agents(repo_url: str, github_token: str):
 
     llm = ChatOpenAI(
-        model="gpt-4",
+        model="gpt-5.0",
         temperature=0
     )
 
