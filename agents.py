@@ -5,7 +5,7 @@ from langchain_openai import ChatOpenAI
 def create_agents(repo_url: str, github_token: str):
 
     llm = ChatOpenAI(
-        model="gpt-5.0",
+        model="gpt-5.1",
         temperature=0
     )
 
