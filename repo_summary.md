@@ -1,9 +1,3 @@
-The repository "Query-router" by rohansudarshan1810 is a Python-based project that demonstrates a simple query router. This router directs user questions to the appropriate agent based on the intent of the query. The project showcases a clear separation of routing logic and agent logic, a simple command-line interface (CLI), and proper unit testing and logging.
+The repository "rohansudarshan1810/Portfolio" is a simple portfolio website built using HTML and CSS. It follows a Single Page Application (SPA) architecture, consisting of a single HTML file (index.html) that provides the entire user interface of the website. The style.css file is used for styling the website, and the images directory likely contains images used on the site. Due to the simplicity of the project, no specific design patterns are used.
 
-The repository contains two agents: GitHubAgent and LinearAgent. The GitHubAgent handles queries related to GitHub such as pull requests and repositories, while the LinearAgent deals with Linear-related queries like issues and tickets. The routing of queries is based on keyword matching. If a query does not match any keywords, the router returns a default response.
-
-The project is run from the command line and uses Python's logging module to log routing decisions. All agent responses are mocked, indicating that the project is primarily a demonstration or prototype rather than a fully functional application.
-
-The repository structure is simple, containing a README.md file, a .DS_Store file, and a query_router directory, which likely contains the main Python scripts and modules for the application.
-
-In summary, the Query-router repository is a straightforward, console-based Python application that demonstrates the use of basic design patterns, unit testing, and logging. It serves as a good example of a simple query routing system.
+On the other hand, the repository "rohansudarshan1810/Query-router" is a Python-based Command Line Interface (CLI) application. It implements a simple query router that routes user questions to the correct agent based on intent, following the Router Pattern. The application has two agents, GitHubAgent and LinearAgent, which handle GitHub and Linear queries respectively. The repository also includes unit testing and logging, indicating good software development practices.
