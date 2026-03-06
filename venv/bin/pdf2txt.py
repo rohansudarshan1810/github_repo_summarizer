@@ -1,4 +1,4 @@
-#!/Users/rohankarlesudarshan/Desktop/github-repo-summarizer/venv/bin/python3.11
+#!/Users/rohankarlesudarshan/Desktop/Projects_Github/github-repo-summarizer/venv/bin/python3.11
 """A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags.
 """

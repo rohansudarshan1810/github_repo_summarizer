@@ -1,4 +1,4 @@
-#!/Users/rohankarlesudarshan/Desktop/github-repo-summarizer/venv/bin/python3.11
+#!/Users/rohankarlesudarshan/Desktop/Projects_Github/github-repo-summarizer/venv/bin/python3.11
 """Extract pdf structure in XML format"""
 
 import logging
